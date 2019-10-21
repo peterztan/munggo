@@ -1,0 +1,42 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-success">
+    <a class="navbar-brand" href="#">munggo!</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/saved">Favorites</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<div class="jumbotron jumbotron-fluid">
+    <div class="container">
+        <p class="lead">Philipino Food</p>
+        <h1 class="display-4">munggo!</h1>
+    </div>
+</div>
+
+<section class="container" id="recipes">
+    <div class="row">
+        <!-- Add recipes here -->
+        <div class="col-lg-3 col-md-6 recipe-col" id="template" hidden>
+            <article class="card">
+                <img src="..." class="card-img-top recipe-image" alt="...">
+                <i class="fas fa-heart"></i>
+                <div class="card-body">
+                    <p class="card-text recipe-ratings">Ratings</p>
+                    <h5 class="card-title recipe-description">Description</h5>
+                    <p class="card-text recipe-author">Author</p>
+                    <a href="#" target="_blank" class="btn btn-primary">Checkout Recipe</a>
+                </div>
+            </article>
+        </div>
+    </div>
+</section>
